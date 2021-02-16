@@ -1,16 +1,31 @@
 import requests
 from bs4 import BeautifulSoup
 
-res = requests.get("https://lol.gamepedia.com/LPL/2021_Season/Spring_Season/Scoreboards")
+cont = 0
+i = 0
+j = 0
 
-res.encoding = 'utf-8'
+source = requests.get('https://lol.gamepedia.com/CBLOL/2021_Season/Split_1/Scoreboards/Week_4').text
 
-soup = BeautifulSoup(res.text, 'html.parser')
+soup = BeautifulSoup(source, 'lxml')
 
-scoreboards = soup.find_all(class_="sb")
 
-all_scoreboards = []
+dias = soup.find_all('span', "mw-headline")
+times = soup.find_all('span', "teamname")
+#vs = soup.find_all('th', "sb-teamname-vs")
 
-    info = scoreboards.find(class_="sb-teamname")
-    info = info.get_text()
-    print(info)
+listatime = []
+partidas = [[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]]
+for time in times:
+    listatime.append(time.text)
+
+for l in range(0,len(partidas)):
+    for c in range(0,2):
+        partidas[l][c] = listatime[i]
+        i = i + 1
+
+print("-=" * 30)
+for l in range(0,len(partidas)):
+    for c in range(0,2):
+        print( partidas[l][c])
+    print()
