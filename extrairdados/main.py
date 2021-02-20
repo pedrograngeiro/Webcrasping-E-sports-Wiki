@@ -1,9 +1,14 @@
 import requests
 from bs4 import BeautifulSoup
+import csv
+
+
 
 cont = 0
 i = 0
 j = 0
+mediabaron = 0
+mediabaronfinal = 0
 
 source = requests.get('https://lol.gamepedia.com/CBLOL/2021_Season/Split_1/Scoreboards').text
 
@@ -44,3 +49,15 @@ for l in range(0,len(partidas)):
     print()
 
 #################### FIM VISULIZAÇÃO BONITA #####################
+
+print(itembaron)
+
+for i in range(0,len(itembaron)):
+    mediabaron = mediabaron + itembaron[i]
+    mediabaronfinal = mediabaron / len(itembaron)
+
+print(mediabaronfinal)
+
+with open('newFile.csv', 'w', encoding='utf-8', newline='') as csvfile:
+    writer = csv.writer(csvfile)
+    writer.writerow(listatime)
