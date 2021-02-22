@@ -49,6 +49,7 @@ for l in range(0,len(partidas)):
 
 #################### FIM VISULIZAÇÃO BONITA #####################
 
+<<<<<<< Updated upstream
 print(itembaron)
 
 for i in range(0,len(itembaron)):
@@ -64,3 +65,5 @@ print(partidas)
     writer = csv.writer(csvfile)
     writer.writerow(listatime)
     """
+=======
+>>>>>>> Stashed changes
