@@ -11,7 +11,7 @@ source = requests.get('https://lol.gamepedia.com/CBLOL/2021_Season/Split_1/Score
 
 soup = BeautifulSoup(source, 'html.parser')
 times = soup.find_all('span', "teamname")
-kills = soup.find_all('div', "sb-header-Kills")
+kills = soup.find_all('div', "sb-footer-item sb-footer-item-barons")
 
 numpartidas = 10
 listatime = []
