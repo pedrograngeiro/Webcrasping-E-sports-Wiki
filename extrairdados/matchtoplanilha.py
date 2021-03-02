@@ -7,17 +7,21 @@ i = 0
 j = 0
 
 
-source = requests.get('https://lol.gamepedia.com/CBLOL/2021_Season/Split_1/Scoreboards/Week_6').text
+
+source = requests.get('https://lol.gamepedia.com/LCS/2021_Season/Spring_Season/Scoreboards/Week_4').text
+
 
 soup = BeautifulSoup(source, 'html.parser')
 times = soup.find_all('span', "teamname")
 kills = soup.find_all('div', "sb-header-Kills")
 
-numpartidas = 10
+
+numpartidas = 7
 listatime = []
-partidas = [[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]]
+partidas = [[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]]
 numkills = []
-numpartidaskills = [0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]
+numpartidaskills = [0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]
+
 
 
 print(partidas)
@@ -41,13 +45,8 @@ for linha in range(0,numpartidas):
 
 
 print(numpartidaskills)
-"""with open('newFile.csv', 'a') as csvfile:
-    wr = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
-    for word in partidas:
-        wr.writerow([None,[word]])
-"""
 
-with open('cblolstats.csv', 'a', newline="") as csvfile:
+with open('statslcs.csv', 'a', newline="") as csvfile:
 
     wr = csv.writer(csvfile,quoting=csv.QUOTE_ALL)
     for word in partidas:
