@@ -1,52 +1,63 @@
-Semana 1,,,,,,
-TSM,FlyQuest,9,20,29,,"27,4666666666667"
-Team Liquid,Immortals,6,14,20,,
-Evil Geniuses,100 Thieves,15,15,30,,
-Golden Guardians,Cloud9,5,15,20,,
-Dignitas,CLG,21,16,37,,
-FlyQuest,Evil Geniuses,14,22,36,,
-Team Liquid,Dignitas,9,6,15,,
-100 Thieves,CLG,21,23,44,,
-Cloud9,TSM,26,10,36,,
-Golden Guardians,Immortals,9,15,24,,
-Team Liquid,FlyQuest,16,11,27,,
-Evil Geniuses,Golden Guardians,22,6,28,,
-Cloud9,Immortals,21,3,24,,
-CLG,TSM,10,14,24,,
-100 Thieves,Dignitas,14,4,18,,
-,,,,,,
-Semana 2,,,,,,
-100 Thieves,FlyQuest,15,8,23,,"24,9333333333333"
-CLG,Team Liquid,3,18,21,,
-Evil Geniuses,Cloud9,26,10,36,,
-TSM,Golden Guardians,15,10,25,,
-Dignitas,Immortals,16,5,21,,
-FlyQuest,CLG,20,6,26,,
-Cloud9,100 Thieves,30,18,48,,
-Golden Guardians,Dignitas,4,16,20,,
-TSM,Team Liquid,12,3,15,,
-Immortals,Evil Geniuses,19,4,23,,
-100 Thieves,Team Liquid,13,10,23,,
-Immortals,TSM,5,14,19,,
-Evil Geniuses,Dignitas,9,21,30,,
-Cloud9,FlyQuest,16,6,22,,
-CLG,Golden Guardians,17,5,22,,
-,,,,,,
-Semana 3,,,,,,
-CLG,Cloud9,17,21,38,,"26,0666666666667"
-Dignitas,FlyQuest,22,7,29,,
-Golden Guardians,Team Liquid,2,16,18,,
-TSM,Evil Geniuses,17,8,25,,
-Immortals,100 Thieves,8,13,21,,
-Cloud9,Dignitas,21,7,28,,
-CLG,Immortals,4,18,22,,
-TSM,100 Thieves,15,2,17,,
-Team Liquid,Evil Geniuses,11,18,29,,
-FlyQuest,Golden Guardians,16,2,18,,
-Dignitas,TSM,20,7,27,,
-Immortals,FlyQuest,22,9,31,,
-100 Thieves,Golden Guardians,16,16,32,,
-Team Liquid,Cloud9,24,11,35,,
-Evil Geniuses,CLG,13,8,21,,
-,,,,,,
-Semana 4,,,,,,
+Semana 1,,Kills Blue Side,Kills Red Side,Total kills,,,,,,,,,
+TSM,FlyQuest,9,20,29,"27,4666666666667",,TSM,FlyQuest,0,1,1,,0
+Team Liquid,Immortals,6,14,20,,,Team Liquid,Immortals,0,1,1,,0
+Evil Geniuses,100 Thieves,15,15,30,,,Evil Geniuses,100 Thieves,0,2,2,,1
+Golden Guardians,Cloud9,5,15,20,,,Golden Guardians,Cloud9,0,1,1,,0
+Dignitas,CLG,21,16,37,,,Dignitas,CLG,2,0,2,,1
+FlyQuest,Evil Geniuses,14,22,36,,,FlyQuest,Evil Geniuses,0,1,1,,0
+Team Liquid,Dignitas,9,6,15,,,Team Liquid,Dignitas,1,0,1,,0
+100 Thieves,CLG,21,23,44,,,100 Thieves,CLG,2,1,3,,1
+Cloud9,TSM,26,10,36,,,Cloud9,TSM,2,0,2,,1
+Golden Guardians,Immortals,9,15,24,,,Golden Guardians,Immortals,2,1,3,,1
+Team Liquid,FlyQuest,16,11,27,,,Team Liquid,FlyQuest,2,0,2,,1
+Evil Geniuses,Golden Guardians,22,6,28,,,Evil Geniuses,Golden Guardians,1,0,1,,0
+Cloud9,Immortals,21,3,24,,,Cloud9,Immortals,1,0,1,,0
+CLG,TSM,10,14,24,,,CLG,TSM,0,3,3,,1
+100 Thieves,Dignitas,14,4,18,,,100 Thieves,Dignitas,1,0,1,,0
+,,,,,,,,,,,,,
+Semana 2,,,,,,,,,,,,,
+100 Thieves,FlyQuest,15,8,23,"24,9333333333333",,100 Thieves,FlyQuest,1,0,1,,0
+CLG,Team Liquid,3,18,21,,,CLG,Team Liquid,0,1,1,,0
+Evil Geniuses,Cloud9,26,10,36,,,Evil Geniuses,Cloud9,1,1,2,,1
+TSM,Golden Guardians,15,10,25,,,TSM,Golden Guardians,2,0,2,,1
+Dignitas,Immortals,16,5,21,,,Dignitas,Immortals,1,0,1,,0
+FlyQuest,CLG,20,6,26,,,FlyQuest,CLG,1,0,1,,0
+Cloud9,100 Thieves,30,18,48,,,Cloud9,100 Thieves,2,0,2,,1
+Golden Guardians,Dignitas,4,16,20,,,Golden Guardians,Dignitas,1,1,2,,1
+TSM,Team Liquid,12,3,15,,,TSM,Team Liquid,1,0,1,,0
+Immortals,Evil Geniuses,19,4,23,,,Immortals,Evil Geniuses,1,0,1,,0
+100 Thieves,Team Liquid,13,10,23,,,100 Thieves,Team Liquid,1,0,1,,0
+Immortals,TSM,5,14,19,,,Immortals,TSM,0,1,1,,0
+Evil Geniuses,Dignitas,9,21,30,,,Evil Geniuses,Dignitas,0,2,2,,1
+Cloud9,FlyQuest,16,6,22,,,Cloud9,FlyQuest,2,0,2,,1
+CLG,Golden Guardians,17,5,22,,,CLG,Golden Guardians,1,0,1,,0
+,,,,,,,,,,,,,
+Semana 3,,,,,,,,,,,,,
+CLG,Cloud9,17,21,38,"26,0666666666667",,CLG,Cloud9,1,2,3,,1
+Dignitas,FlyQuest,22,7,29,,,Dignitas,FlyQuest,2,0,2,,1
+Golden Guardians,Team Liquid,2,16,18,,,Golden Guardians,Team Liquid,0,1,1,,0
+TSM,Evil Geniuses,17,8,25,,,TSM,Evil Geniuses,1,0,1,,0
+Immortals,100 Thieves,8,13,21,,,Immortals,100 Thieves,0,1,1,,0
+Cloud9,Dignitas,21,7,28,,,Cloud9,Dignitas,0,1,1,,0
+CLG,Immortals,4,18,22,,,CLG,Immortals,1,1,2,,1
+TSM,100 Thieves,15,2,17,,,TSM,100 Thieves,1,0,1,,0
+Team Liquid,Evil Geniuses,11,18,29,,,Team Liquid,Evil Geniuses,0,1,1,,0
+FlyQuest,Golden Guardians,16,2,18,,,FlyQuest,Golden Guardians,0,0,0,,0
+Dignitas,TSM,20,7,27,,,Dignitas,TSM,1,0,1,,0
+Immortals,FlyQuest,22,9,31,,,Immortals,FlyQuest,0,0,0,,0
+100 Thieves,Golden Guardians,16,16,32,,,100 Thieves,Golden Guardians,0,4,4,,1
+Team Liquid,Cloud9,24,11,35,,,Team Liquid,Cloud9,1,0,1,,0
+Evil Geniuses,CLG,13,8,21,,,Evil Geniuses,CLG,2,1,3,,1
+,,,,,,,,,,,,,
+Semana 4,,,,,,,,,,,,,
+Cloud9,Golden Guardians,12,4,16,"23,125",,Cloud9,Golden Guardians,1,0,1,,0
+Team Liquid,TSM,18,14,32,,,Team Liquid,TSM,0,2,2,,1
+Evil Geniuses,FlyQuest,16,15,31,,,Evil Geniuses,FlyQuest,1,0,1,,0
+CLG,100 Thieves,17,15,32,,,CLG,100 Thieves,1,1,2,,1
+Immortals,Dignitas,4,10,14,,,Immortals,Dignitas,0,1,1,,0
+Team Liquid,FlyQuest,11,5,16,,,Team Liquid,FlyQuest,1,0,1,,0
+Cloud9,Evil Geniuses,19,9,28,,,Cloud9,Evil Geniuses,1,0,1,,0
+Dignitas,100 Thieves,12,4,16,,,,,0,2,2,,1
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+ss,,,,,,,,,,,,,
