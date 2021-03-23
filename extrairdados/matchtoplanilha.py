@@ -41,11 +41,6 @@ for linha in range(0,numpartidas):
 
 
 print(numpartidaskills)
-"""with open('newFile.csv', 'a') as csvfile:
-    wr = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
-    for word in partidas:
-        wr.writerow([None,[word]])
-"""
 
 with open('newFile copia.csv', 'a', newline="") as csvfile:
 
